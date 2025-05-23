@@ -22,7 +22,7 @@ btnEnviar.addEventListener('click', function clicar(event) {
     }
     
     const boxItem = document.createElement('div')
-    boxItem.classList.add('container__itens_produto')
+
     boxItem.innerHTML = `
     <p> Produto: ${nome} - R$${preco} - Categoria: ${categoria}</p>
     `
